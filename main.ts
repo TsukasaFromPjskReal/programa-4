@@ -1,5 +1,5 @@
 let velocidad = 150
-let tipo_giro = 900
+let tipo_giro = 850
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, velocidad)
 basic.pause(500)
 maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, velocidad)
@@ -11,22 +11,22 @@ maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, velocidad)
 maqueen.motorStop(maqueen.Motors.M1)
 basic.pause(tipo_giro)
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, velocidad)
-basic.pause(500)
+basic.pause(400)
 maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, velocidad)
 maqueen.motorStop(maqueen.Motors.M1)
 basic.pause(tipo_giro)
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, velocidad)
-basic.pause(800)
+basic.pause(400)
 maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, velocidad)
 maqueen.motorStop(maqueen.Motors.M2)
 basic.pause(tipo_giro)
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, velocidad)
-basic.pause(500)
+basic.pause(400)
 maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, velocidad)
 maqueen.motorStop(maqueen.Motors.M1)
 basic.pause(tipo_giro)
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, velocidad)
-basic.pause(500)
+basic.pause(400)
 basic.forever(function () {
 	
 })
